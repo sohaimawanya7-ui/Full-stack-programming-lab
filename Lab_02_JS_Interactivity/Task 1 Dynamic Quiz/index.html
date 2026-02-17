@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic JS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Quick Tech Quiz</h1>
+        
+        <div id="quiz-box">
+            <div class="question">
+                <p>1. What does JS stand for?</p>
+                <input type="text" id="q1" placeholder="Your answer...">
+            </div>
+
+            <div class="question">
+                <p>2. Which HTML tag is used for JavaScript?</p>
+                <input type="text" id="q2" placeholder="Your answer...">
+            </div>
+
+            <div class="question">
+                <p>3. Is JavaScript the same as Java? (Yes/No)</p>
+                <input type="text" id="q3" placeholder="Your answer...">
+            </div>
+        </div>
+
+        <button onclick="calculateScore()">Submit Answers</button>
+        <button id="reset-btn" onclick="resetQuiz()">Reset Quiz</button>
+
+        <div id="result-display">
+            <h2 id="score-text"></h2>
+            <p id="feedback-msg"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

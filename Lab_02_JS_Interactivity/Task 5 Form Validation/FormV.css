@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+input {
+    padding: 5px;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+}
