@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #ff758c;
+    color: white;
+    cursor: pointer;
+}
+
+.tab-link:hover {
+    background: #e84367;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-top: 2px solid #ff758c;
+}
