@@ -1,0 +1,5 @@
+node_modules/
+.next/
+*.txt
+id_ed25519*
+.env
